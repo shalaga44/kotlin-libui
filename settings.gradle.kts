@@ -6,6 +6,7 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
         maven("https://dl.bintray.com/kotlin/kotlin-dev")
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/dokka/dev")
     }
 }
 

@@ -10,19 +10,7 @@ object Publish {
     }
 }
 
-object Kotlin {
-    const val version = "1.4.0"
-}
-
 object Libui {
     const val version = "alpha4.1-openfolder"
     const val repo = "https://github.com/msink/libui"
-}
-
-object Dokka {
-    const val version = "0.9.17"
-}
-
-object Download {
-    const val version = "4.1.1"
 }
