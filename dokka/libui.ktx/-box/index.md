@@ -43,7 +43,7 @@ abstract class [Box](index.md)(**alloc**: CPointer<<ERROR CLASS>>?) : [Control](
   
 |  Name|  Summary| 
 |---|---|
-| <a name="disposed"></a>[disposed](#disposed)|  [linux, macosx, windows64, windows] <br><br>Returns true if object was disposed - in this case dispose will do nothing, all other operations are invalid and will throw Error("Resource is disposed").<br><br>override val [disposed](index.md#libui.ktx/Box/disposed/#/PointingToDeclaration/): Boolean   <br>
+| <a name="disposed"></a>[disposed](#disposed)|  [linux, macosx, windows64, windows] <br><br>Returns true if object was disposed - in this case dispose will do nothing, all other operations are invalid and will throw Error("Resource is disposed").<br><br>override val [disposed](disposed): Boolean   <br>
 | [enabled](index.md#libui.ktx/Box/enabled/#/PointingToDeclaration/)|  [linux, macosx, windows64, windows] <br><br>Whether the Control should be enabled or disabled. Defaults to true.<br><br>override var [enabled](index.md#libui.ktx/Box/enabled/#/PointingToDeclaration/): Boolean   <br>
 | [padded](index.md#libui.ktx/Box/padded/#/PointingToDeclaration/)|  [linux, macosx, windows64, windows] <br><br>If true, the container insert some space between children.<br><br>var [padded](index.md#libui.ktx/Box/padded/#/PointingToDeclaration/): Boolean   <br>
 | [parent](index.md#libui.ktx/Box/parent/#/PointingToDeclaration/)|  [linux, macosx, windows64, windows] <br><br>Returns parent of the control or null for detached.<br><br>override var [parent](index.md#libui.ktx/Box/parent/#/PointingToDeclaration/): [Control](../-control/index.md)<*>?   <br>
